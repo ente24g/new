@@ -1,4 +1,17 @@
-print("вхіт на сторінку топ хек")
-registration = neme_of_user = password_of_user = input("вкажіть імя та пароль щоб ввійти в аккунт")
-Pass_verification = input("найдіть 3 велосипеда на картинці")
-print(f"Ви успішно увішли в аккаунт доброго дня Антон,{neme_of_user = password_of_user})
+# твердження - > перевіряє на вірність
+# порівняння -> True(правда), або False(не правда)
+parol = 'qwerty' # база даних з паролем
+userPassword = input('Please enter password: \n ') # увів юзер дані
+# == - перевірка чи одне значення дорівнює іншому значенню
+# != - перевірка чи НЕ дорівнює
+
+# if - якщо ЯКЕСЬ ТВЕРДЖЕННЯ на перевірку
+# else - будь що інше
+
+a = userPassword == parol
+print(a)
+
+# if userPassword == parol:
+#     print('вітаємо в акаунті')
+# else:
+#     print('акаунт заблоковано')
