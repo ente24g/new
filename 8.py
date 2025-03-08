@@ -1,6 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-result = all(num > 0 for num in numbers)  # Перевіряє, чи всі числа більше 0
-print(result)translations = {
+translations = {
     "hello": {"uk": "привіт", "ru": "привет", "ch": "問候"},
     "world": {"uk": "світ", "ru": "свет", "ch": "世界"},
     "cat": {"uk": "кіт", "ru": "кот", "ch": "貓"},
