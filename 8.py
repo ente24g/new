@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 translations = {
+=======
+print(result)translations = {
+>>>>>>> 95a31c8e3feb870bbb7c09d0315985e30bf82101
     "hello": {"uk": "привіт", "ru": "привет", "ch": "問候"},
     "world": {"uk": "світ", "ru": "свет", "ch": "世界"},
     "cat": {"uk": "кіт", "ru": "кот", "ch": "貓"},
